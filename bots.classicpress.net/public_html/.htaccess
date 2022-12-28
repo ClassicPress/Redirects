@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)$ https://www.classicpress.net/$1 [R]

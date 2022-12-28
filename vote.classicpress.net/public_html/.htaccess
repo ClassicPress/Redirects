@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)$ https://github.com/ClassicPress/ClassicPress/issues?q=is%3Aopen+is%3Aissue+label%3A%22type%3A+feature+request%22$1 [R]

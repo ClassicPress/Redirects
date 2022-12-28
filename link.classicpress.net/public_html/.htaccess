@@ -1,0 +1,42 @@
+RewriteEngine on
+
+RedirectMatch 302 \
+        ^/?$ \
+        https://github.com/ClassicPress/subdomain-link
+
+RedirectMatch 302 \
+        ^/forum/security/?$ \
+        https://forums.classicpress.net/c/projects/core-development/18
+
+RedirectMatch 302 \
+        ^/plugin-compatibility/?$ \
+        https://docs.classicpress.net/user-guides/faq-and-support/#will-my-current-plugins-and-themes-work-in-classicpress
+
+RedirectMatch 302 \
+        ^/docs/custom-login-image/?$ \
+        https://docs.classicpress.net/user-guides/custom-login-image/
+
+RedirectMatch 302 \
+        ^/security-page/?$ \
+        https://docs.classicpress.net/developing-classicpress/security-page/
+
+RedirectMatch 302 \
+        ^/security-page/contact-plugin-authors/?$ \
+        https://docs.classicpress.net/developing-classicpress/security-page/#contacting-plugin-authors
+
+RedirectMatch 302 \
+        ^/support/security-page/?$ \
+        https://forums.classicpress.net/c/general-discussion/security-news/45
+
+RedirectMatch 302 \
+        ^/releases/?$ \
+        https://forums.classicpress.net/c/announcements/release-notes
+
+RedirectMatch 302 \
+        ^/the-cms-for-creators/?$ \
+        https://www.classicpress.net
+
+RedirectMatch 302 \
+        ^/core-privacy-policy/?$ \
+        https://www.classicpress.net/privacy-policy/#core-privacy-policy
+

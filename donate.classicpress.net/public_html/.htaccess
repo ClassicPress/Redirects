@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)$ https://opencollective.com/classicpress [R]

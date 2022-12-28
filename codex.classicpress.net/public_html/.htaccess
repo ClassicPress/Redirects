@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^codex.classicpress.net$
+  RewriteRule (.*)$ https://codex.wordpress.org/$1 [R=302,L]
+</IfModule>
